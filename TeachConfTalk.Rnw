@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[dvipsnames]{beamer}
 
 % Specify theme
 \usetheme{Madrid}
@@ -6,6 +6,8 @@
 % Specify base color
 \usecolortheme[named=OliveGreen]{structure}
 % See http://goo.gl/p0Phn for other colors
+
+\graphicspath{{../Pictures/}}
 
 % Specify other colors and options as required
 \setbeamercolor{alerted text}{fg=Maroon}
@@ -28,12 +30,17 @@
 \date{July 2018}
 
 \begin{document}
+{
+\usebackgroundtemplate{
+\includegraphics[height = 2.6in, trim = 10 20 00 16]{teaching1}
 
 \begin{frame}
 \titlepage
 \end{frame}
-
+}
+}
 \begin{frame}
+\includegraphics[height = 2.6in, trim = 10 20 00 16]{teaching1}
 \end{frame}
 \section{The problems}
 \section{The solutions}
