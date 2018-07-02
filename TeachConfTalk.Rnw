@@ -1,4 +1,4 @@
-\documentclass[dvipsnames]{beamer}
+\documentclass[14pt,xcolor=pdftex,dvipsnames,table]{beamer}
 
 % Specify theme
 \usetheme{Madrid}
@@ -13,16 +13,16 @@
 \setbeamercolor{alerted text}{fg=Maroon}
 \setbeamertemplate{items}[square]
 
-\AtBeginSection[]{
-\begin{frame}
-\vfill
-\centering
-\begin{beamercolorbox}[sep=8pt, center, shadow=true, rounded=true]{title}
-\usebeamerfont{title}\insertsectionhead\par%
-\end{beamercolorbox}
-\vfill
-\end{frame}
-}
+%\AtBeginSection[]{
+%\begin{frame}
+%\vfill
+%\centering
+%\begin{beamercolorbox}[sep=8pt, center, shadow=true, rounded=true]{title}
+%\usebeamerfont{title}\insertsectionhead\par%
+%\end{beamercolorbox}
+%\vfill
+%\end{frame}
+%}
 
 % Title and author information
 \title{Teaching Investmen}
@@ -32,17 +32,70 @@
 \begin{document}
 {
 \usebackgroundtemplate{
-\includegraphics[height = 2.6in, trim = 10 20 00 16]{teaching1}
+\includegraphics[height = 2.6in, trim = 20 20 00 26]{teaching2}
 
-\begin{frame}
-\titlepage
-\end{frame}
+%\begin{frame}
+%\titlepage
+%\end{frame}
 }
 }
 \begin{frame}
-\includegraphics[height = 2.6in, trim = 10 20 00 16]{teaching1}
+\includegraphics[height = 2.6in, trim = 10 20 00 16]{teaching2}
 \end{frame}
-\section{The problems}
+\section{Where we are going}
+\begin{frame}{Where we are going}
+\begin{itemize}[<+-| alert@+>]
+	\item What I learnt
+	\item The solutions (technology)
+	\item Soem thoughts beyond investment
+\end{itemize}
+\end{frame}
+
+\begin{frame}{What I learnt}
+\begin{itemize}[<+-| alert@+>]
+	\item Live markets are important
+	\item Transactions must be verified
+	\item Allow evolution
+	\item Allow scaling
+\end{itemize}
+\end{frame}
+
 \section{The solutions}
-\section{Next}
+\begin{frame}{The solutions}
+\begin{itemize}[<+-| alert@+>]
+	\item Exchange trade funds (ETF)
+	\item Open source
+\end{itemize}
+\end{frame}
+
+\begin{frame}{ETF list}
+\begin{table}
+\begin{center}
+\rowcolors{1}{OliveGreen!20}{OliveGreen!5}
+\begin{tabular}{l p{8cm} l}
+\textbf{Ticker} & \textbf{Description} & \textbf{Cost}\\
+\hline
+SPY & S\&P 500 index & 0.09\\
+TLT & 10-year plus government & 0.15\\ 
+EEM & MSCI emerging markets & 0.48\\
+GLD & Gold index & 0.40\\
+EWJ & MSCI Japan & 0.48\\
+XLK & Technology sector & 0.15\\
+LQD & Investment grade corporate bond & 0.15\\
+RSP & Equal-weight S\&P 500 & 0.48\\
+USO & US oil & 0.66\\
+QQQ & NASDAQ technology & 0.20\\
+BOND&  Pimco active bond investment & 0.55\\
+\end{tabular}
+\end{center}
+\end{table}
+\end{frame}
+	
+\begin{frame}{Open source}
+\includegraphics[height = 0.6in, trim = 10 20 00 16]{R}
+\includegraphics[height = 2.6in, trim = 10 20 00 16]{Rstudio}
+\includegraphics[height = 2.6in, trim = 10 20 00 16]{python}
+\end{frame}
+	
+\section{Take away}
 \end{document}
