@@ -12,7 +12,11 @@
 % Specify other colors and options as required
 \setbeamercolor{alerted text}{fg=Maroon}
 \setbeamertemplate{items}[square]
-
+\usepackage[absolute, overlay]{textpos}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\tikzstyle{data}=[rectangle split, rectangle split parts=4,draw,text centered]
+\usepackage{hyperref}
 %\AtBeginSection[]{
 %\begin{frame}
 %\vfill
@@ -25,38 +29,55 @@
 %}
 
 % Title and author information
-\title{Teaching Investmen}
+\title{Teaching Investment}
 \author{Rob Hayward}
 \date{July 2018}
 
 \begin{document}
-{
-\usebackgroundtemplate{
-\includegraphics[height = 2.6in, trim = 20 20 00 26]{teaching2}
 
-%\begin{frame}
-%\titlepage
-%\end{frame}
-}
-}
 \begin{frame}
-\includegraphics[height = 2.6in, trim = 10 20 00 16]{teaching2}
+\includegraphics[height = 2.6in, trim = 10 20 00 16]{teaching4}
 \end{frame}
-\section{Where we are going}
+
+\begin{frame}
+\includegraphics[height = 2.6in, trim = 10 20 00 16]{gold}
+\end{frame}
+
 \begin{frame}{Where we are going}
 \begin{itemize}[<+-| alert@+>]
+\pause
 	\item What I learnt
 	\item The solutions (technology)
-	\item Soem thoughts beyond investment
+	\item Some thoughts beyond investment
 \end{itemize}
+\end{frame}
+
+\begin{frame}{The journey}
+\begin{textblock}{0.4}(1.0, 2.3)
+\includegraphics[scale = 0.15]{me2}
+\end{textblock}
+%\begin{textblock}{1}(8.8, 8.5)
+%\includegraphics[scale = 0.2]{me4}
+%\end{textblock}
+\end{frame}
+	
+\begin{frame}{The journey}
+\begin{textblock}{0.4}(1.0, 2.3)
+\includegraphics[scale = 0.15]{me2}
+\end{textblock}
+\pause
+\begin{textblock}{1}(8.8, 8.5)
+\includegraphics[scale = 0.2]{me4}
+\end{textblock}
 \end{frame}
 
 \begin{frame}{What I learnt}
 \begin{itemize}[<+-| alert@+>]
 	\item Live markets are important
+	\item Assets are more interesting and versatile than stocks
 	\item Transactions must be verified
-	\item Allow evolution
-	\item Allow scaling
+	\item Importance of evolution
+	\item Importance of scaling
 \end{itemize}
 \end{frame}
 
@@ -91,11 +112,86 @@ BOND&  Pimco active bond investment & 0.55\\
 \end{table}
 \end{frame}
 	
-\begin{frame}{Open source}
-\includegraphics[height = 0.6in, trim = 10 20 00 16]{R}
-\includegraphics[height = 2.6in, trim = 10 20 00 16]{Rstudio}
-\includegraphics[height = 2.6in, trim = 10 20 00 16]{python}
+\begin{frame}{Managing the data: transactions}
+\begin{textblock}{0.4}(1.0, 2.0)
+\includegraphics[scale = 0.5]{transhw283}
+\end{textblock}
+\begin{textblock}{1}(8.0, 11.5)
+\includegraphics[scale = 0.5]{translw458}
+\end{textblock}
 \end{frame}
 	
-\section{Take away}
+\begin{frame}{Managing the data: portfolio}
+\begin{textblock}{0.4}(1.0, 2.0)
+\includegraphics[scale = 0.5]{porthw283}
+\end{textblock}
+\begin{textblock}{1}(8.0, 7.0)
+\includegraphics[scale = 0.5]{portlw458}
+\end{textblock}
+\end{frame}
+
+\begin{frame}{The app}
+\includegraphics[scale = 0.28]{portfolio}
+\vspace{1cm}
+\href{https://robhayward.shinyapps.io/portfolio2/}{\tiny{https://robhayward.shinyapps.io/portfolio2/}}
+\end{frame}
+
+\begin{frame}{The new app}
+\includegraphics[scale = 0.32]{PortDash}
+\vspace{0.6cm}
+\href{https://robhayward.shinyapps.io/dashport//}{\tiny{https://robhayward.shinyapps.io/dashport/}}
+\end{frame}
+
+\begin{frame}{Next}
+\begin{itemize}[<+-| alert@+>]
+\pause
+\item More assets
+\item Foreign exchange and interest rates
+\item Daily updates
+\item Run into following year
+\item Prizes
+\end{itemize}
+\end{frame}
+
+\begin{frame}{All types of ETF}
+\begin{center}
+\includegraphics[scale = 0.6]{trump}
+\end{center}
+\begin{itemize}
+\item MAGA - Rank firms according to the way they benefit from GOP policy
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Live markets}
+The advantages of live markets
+\begin{itemize}[<+-| alert@+>]
+\pause
+\item Learning about current events
+\item Improves exam answers
+\item Can discuss current events in interviews
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Open source}
+\begin{textblock}{0.4}(1.0, 2.0)
+\includegraphics[scale = 0.5]{R}
+\end{textblock}
+\begin{textblock}{1}(2.0, 7.0)
+\includegraphics[scale = 0.5]{Rstudio}
+\end{textblock}
+\begin{textblock}{1}(8.0, 7.0)
+\includegraphics[scale = 0.5]{python}
+\end{textblock}
+\end{frame}
+
+\begin{frame}{Open source}
+The advantages open source
+\begin{itemize}[<+-| alert@+>]
+\pause
+\item An alternative to central control and difused knowledge
+\item A more cooperative approach
+\item Draws on Brighton as a technology-creative hub
+\end{itemize}
+\end{frame}
+
 \end{document}
