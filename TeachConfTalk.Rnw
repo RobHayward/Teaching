@@ -46,9 +46,9 @@
 \begin{frame}{Where we are going}
 \begin{itemize}[<+-| alert@+>]
 \pause
-	\item What I learnt
+	\item Reflection on the issues
 	\item The solutions (technology)
-	\item Some thoughts beyond investment
+	\item The big picture
 \end{itemize}
 \end{frame}
 
@@ -73,6 +73,7 @@
 
 \begin{frame}{What I learnt}
 \begin{itemize}[<+-| alert@+>]
+\pause
 	\item Live markets are important
 	\item Assets are more interesting and versatile than stocks
 	\item Transactions must be verified
@@ -81,7 +82,7 @@
 \end{itemize}
 \end{frame}
 
-\section{The solutions}
+\section{The solutions (technology)}
 \begin{frame}{The solutions}
 \begin{itemize}[<+-| alert@+>]
 	\item Exchange trade funds (ETF)
@@ -112,6 +113,16 @@ BOND&  Pimco active bond investment & 0.55\\
 \end{table}
 \end{frame}
 	
+\begin{frame}{Explosion of ETF}
+\begin{center}
+\includegraphics[scale = 0.6]{trump}
+\end{center}
+\begin{itemize}
+\item MAGA - Rank firms according to the way they benefit from GOP policy
+\item ESG indices
+\end{itemize}
+\end{frame}
+
 \begin{frame}{Managing the data: transactions}
 \begin{textblock}{0.4}(1.0, 2.0)
 \includegraphics[scale = 0.5]{transhw283}
@@ -153,15 +164,6 @@ BOND&  Pimco active bond investment & 0.55\\
 \end{itemize}
 \end{frame}
 
-\begin{frame}{All types of ETF}
-\begin{center}
-\includegraphics[scale = 0.6]{trump}
-\end{center}
-\begin{itemize}
-\item MAGA - Rank firms according to the way they benefit from GOP policy
-\end{itemize}
-\end{frame}
-
 \begin{frame}{Live markets}
 The advantages of live markets
 \begin{itemize}[<+-| alert@+>]
@@ -188,7 +190,7 @@ The advantages of live markets
 The advantages open source
 \begin{itemize}[<+-| alert@+>]
 \pause
-\item An alternative to central control and difused knowledge
+\item An alternative to central control and diffused knowledge
 \item A more cooperative approach
 \item Draws on Brighton as a technology-creative hub
 \end{itemize}
